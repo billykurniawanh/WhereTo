@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF">
+
+    <ImageView
+        android:id="@+id/profileimg"
+        android:layout_width="123dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/profpic" />
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:background="@android:color/transparent"
+        android:hint="FIRST NAME"
+        android:fontFamily="serif"
+        android:layout_marginLeft="10dp"
+        android:textSize="30dp"></EditText>
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="225dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="serif"
+        android:hint="LAST NAME"
+        android:textSize="30dp"></EditText>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="275dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="serif"
+        android:hint="EMAIL"
+        android:inputType="textNoSuggestions"
+        android:textSize="30dp"></EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="325dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="serif"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:textSize="30dp"></EditText>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_provider_background"
+        android:text="SAVE"
+        android:textColor="#000080"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+</RelativeLayout>

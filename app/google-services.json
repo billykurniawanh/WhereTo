@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "438804840560",
+    "firebase_url": "https://where-to-a7b82.firebaseio.com",
+    "project_id": "where-to-a7b82",
+    "storage_bucket": "where-to-a7b82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438804840560:android:bfb6cba50a439737",
+        "android_client_info": {
+          "package_name": "com.example.billy.whereto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438804840560-e53rial6o7tidduvsu2hcsamjli8dm8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrwAr9V8wcQvCwNb6DJAOVMNNk_DZcm2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
